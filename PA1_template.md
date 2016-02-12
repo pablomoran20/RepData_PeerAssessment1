@@ -1,6 +1,6 @@
 ---
 title: "REPRODUCIBLE RESEARCH - COURSE PROJECT 1"
-author: "Pablo Mor·n Collantes"
+author: "Pablo Mor√°n Collantes"
 date: "February 2016"
 output: html_document
 ---
@@ -49,7 +49,7 @@ hist(daily_sum,
      breaks=seq(0,22000,by=1000))
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](https://github.com/pablomoran20/RepData_PeerAssessment1/blob/master/Histogram_total_number_steps_day.png)
 
 3. Calculate and report the mean and median of the total number of steps taken per day
 
@@ -88,7 +88,7 @@ plot(df_int_avrg$interval, df_int_avrg$average,
      ylim=c(0, 220))
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](https://github.com/pablomoran20/RepData_PeerAssessment1/blob/master/Graph_average_daily_activity_pattern.png)
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -148,7 +148,7 @@ hist(new_daily_sum,
      breaks=seq(0,22000,by=1000))
 ```
 
-![plot of chunk graph](figure/graph-1.png)
+![plot of chunk graph](https://github.com/pablomoran20/RepData_PeerAssessment1/blob/master/Histogram_total_number_steps_day_adjusted.png)
 
 5. Calculate the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment?
 
@@ -231,4 +231,4 @@ xyplot(steps ~ interval | factor(week),
        aspect=1/3)
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13](https://github.com/pablomoran20/RepData_PeerAssessment1/blob/master/Graph_average_activity_pattern_weekdays_weekends.png)
